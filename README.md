@@ -21,7 +21,7 @@ A simple web-based WYSIWYG (What You See Is What You Get) web page builder that 
 ## Setup and Installation
 
 1. **Clone the Repository**:
-   git clone https://github.com/Sushmitameena/wysiwyg-web-page-builder.git
+   git clone https://github.com/Sushmitameena/WYSIWYG-Web-Page-Builder.git
 
 2. **Navigate to the Project Directory:**
    cd wysiwyg-web-page-builder
