@@ -1,0 +1,91 @@
+.header {
+  background-color: #643e5f;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  background-color: #643e5f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.draggable-component {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: move;
+  user-select: none;
+}
+
+.canvas {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ccc;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.canvas.preview {
+  pointer-events: none;
+}
+
+.text-box,
+.image-component,
+.button-component {
+  position: absolute;
+}
+
+.text-box .toolbar {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 5px 0;
+}
+/* App.css or Canvas.css */
+.canvas {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.canvas.preview {
+  border: none; /* Optionally hide border in preview mode */
+}
