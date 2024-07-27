@@ -24,7 +24,7 @@ A simple web-based WYSIWYG (What You See Is What You Get) web page builder that 
    git clone https://github.com/Sushmitameena/WYSIWYG-Web-Page-Builder.git
 
 2. **Navigate to the Project Directory:**
-   cd wysiwyg-web-page-builder
+   cd WYSIWYG-Web-Page-Builder-main
 
 3. **Install Dependencies:**
    npm install
