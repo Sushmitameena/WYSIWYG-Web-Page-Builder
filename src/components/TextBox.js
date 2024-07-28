@@ -10,11 +10,6 @@ const fontSizeStyleMap = {
   'FONTSIZE-20': { fontSize: '20px' },
 };
 
-// Define text style classes
-const textStyles = {
-  bold: 'font-weight: bold;',
-  italic: 'font-style: italic;',
-};
 
 const TextBox = ({ id, left, top, text, onDelete, moveComponent, isPreview }) => {
     const [localText, setLocalText] = useState(text);
